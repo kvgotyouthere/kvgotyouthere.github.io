@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Be My Valentine</title>
+    <style>
+        body {
+    font-family: 'Comfortaa';font-size: 22px;
+    background-color: #E0BBE4;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    padding: 8% 16%;
+}
+
+.in-container {
+    display: inline-block;
+}
+
+.in-container .hey{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-right: 5px solid;
+    width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+            typing 2s steps(13),
+            cursor .4s step-end infinite alternate;
+    animation-fill-mode: forwards ;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+
+@keyframes typing {
+    from { width: 0;}
+    to {width: 100%; border-color: transparent;}
+}
+
+.in-container .hap{
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-right: 5px solid;
+    width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    animation:
+            typing 2s steps(14),
+            cursor .4s step-end infinite alternate;
+    animation-delay: 2s;
+    animation-fill-mode: forwards ;
+    color: #ffffff;
+    font-size: 110px;
+    letter-spacing: 3px;
+    margin-block-start: 60px;
+    margin-block-end: 60px;
+}
+
+.in-container .i{
+    font-weight: 900;
+    border-right: 5px solid;
+    width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+            typing 6s steps(63),
+            cursor .4s step-end infinite alternate;
+    animation-delay: 4s;
+    animation-fill-mode: forwards ;
+    font-size: 25px;
+}
+
+.in-container .so{
+    font-weight: 900;
+    border-right: 5px solid;
+    width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+            typing 3s steps(30),
+            cursor .4s step-end infinite alternate;
+    animation-delay: 10s;
+    animation-fill-mode: forwards ;
+    font-size: 25px;
+}
+
+
+.trans-p-c {
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(224, 187, 228), rgba(254, 200, 216));
+    width: 100%;
+}
+
+.trans-l-p {
+    height: 200px;
+    background-image: linear-gradient(to bottom,rgba(255, 223, 211), rgba(224, 187, 228));
+    width: 100%;
+}
+
+.trans-p-la {
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(224, 187, 228), rgba(254, 200, 216));
+    width: 100%;
+}
+
+.trans-c-l {
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(254, 200, 216), rgba(255, 223, 211));
+    width: 100%;
+}
+
+.container-cotton {
+    background-color: #FEC8D8;
+    padding: 16% 16%;
+}
+
+.container-cotton p{
+    font-size: 25px;
+}
+
+.container-cotton font{
+    font-size: 120px;
+    margin-right: 10px;
+    font-weight: 900;
+    color: white;
+}
+
+.clock-holder {
+    margin: 60px 0;
+}
+
+.container-lum {
+    background-color: #FFDFD3;
+    padding: 16% 8%;
+    position: relative;
+}
+
+.kevi {
+    height: 400px;
+    width: 400px;
+    margin-left: 70%;
+    
+}
+
+.container-lum video {
+    margin-top: -200px;
+}
+
+.love {
+    height: 150px;
+    width: 400px;
+    position: absolute;
+    left: 37%;
+    top: 40%;
+    transform: rotate(-20deg);
+}
+
+.container-lum p {
+    font-size: 30px;
+}
+
+.container {
+    padding: 16% 16%;
+}
+
+.container p{
+    font-size: 25px;
+}
+
+.card {
+    height: 350px;
+    width: 250px;
+    background-color: #957DAD;
+    color: white;
+    padding: 40px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.card.fade-out {
+    opacity: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.card h2{
+    width: fit-content;
+    font-size: 50px;
+    display: none;
+}
+
+.card p{
+    display: none;
+}
+
+.card font {
+    margin-top: 120px;
+    display: block;
+    font-size: 80px;
+    text-align: center;
+}
+
+.card.show font{
+    display: none;
+}
+
+.card.show p, .card.show h2{
+    display: block;
+}
+
+.container-lavender {
+    background-color: #FEC8D8;
+    padding: 16%;
+}
+
+
+    </style>
+</head>
+<body>
+    <section id="one">
+        <div class="hero">
+            <div class="in-container">
+                <p class="hey">
+                    Hey Bena,
+                </p>
+            </div>
+            <div class="in-container">
+                <p class="hap">
+                    HAPPY VALENTINE'S DAY
+                </p>
+            </div>
+            <div class="in-container">
+                <p class="i">
+                    I wanted to do something different for you to remember.
+                </p>
+            </div>
+            <div class="in-container">
+                <p class="so">
+                    So... I made you this website.
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="trans-p-c">
+
+    </div>
+    <section class="two">
+        <div class="container-cotton">
+            <p>
+                It's been exactly
+            </p>
+            <div class="clock-holder">
+                <font id="days"></font>
+                <font>:</font>
+                <font id="hours"></font>
+                <font>:</font>
+                <font id="minutes"></font>
+                <font>:</font>
+                <font id="seconds"></font>
+            </div>
+            <p>
+                Since the first time, I saw you walk out the road with Belinda. And I want to remember that moment for eternity.
+            </p>
+        </div>
+    </section>
+    <div class="trans-c-l">
+
+    </div>
+    <section id="three">
+        <div class="container-lum">
+            <img src="./Kevi.jpg" alt="" class="kevi"/>
+            <img src="./vecteezy_black-heart-line-png-file_20945974_746.png" alt="" class="love"/>
+            <video width="400px" height="400px" controls="controls">
+            <source src="./patpatpat.mp4" type="video/mp4" />
+        </div>
+        <div class="container-lum">
+            <p>
+                "You're not easygoing, but you're passionate, and that's good. And when you get upset about the little things, I think that I'm pretty good about making you feel better about that. And that's good, too. So, they can say that you're high-maintenance, but it's OK because I like maintaining you."
+                <br/><br/> — Chandler
+                            </p>
+        </div>
+    </section>
+    <div class="trans-l-p">
+
+    </div>
+    <section id="four">
+        <div class="container">
+            <p>
+                I handpicked a song for you.<br/><br/>
+                You can play it on background and keep on scrolling. There is a suprise waiting...
+            </p>
+            <div>
+                <video width="500px" height="350px" controls="controls">
+                <source src="./Sajjan Raj Vaidya - Chitthi Bhitra [Official Release].mp4" type="video/mp4" />
+            </div>
+            <p>
+                Chitthi Bhitra - Sajjan Raj Vaidya
+            </p>
+        </div>
+        <div class="container">
+            <p>
+                Each card have a unique suprise. You can only choose one.<br/>
+                So, choose carefully...
+            </p>
+            <div class="card-container">
+                <div class="card" onclick="cardSelected(this)">
+                    <h2>
+                        Hand Holder
+                    </h2>
+                    <p>
+                        Anywhere anytime I'll hold your hands and also...other things hehehe.
+                    </p>
+                    <font>
+                        ?
+                    </font>
+                </div>
+                <div class="card" onclick="cardSelected(this)">
+                    <h2>
+                        Chef
+                    </h2>
+                    <p>
+                        Personal 3-star Michelin chef will cook anything you want.
+                    </p>
+                    <font>
+                        ?
+                    </font>
+                </div>
+                <div class="card" onclick="cardSelected(this)">
+                    <h2>
+                        Batman
+                    </h2>
+                    <p>
+                        Anything you want I am at your service, my nungcbi.
+                    </p>
+                    <font>
+                        ?
+                    </font>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="trans-p-la">
+
+    </div>
+    <section id="five">
+        <div class="container-cotton">
+            <video width="400px" height="550px" controls="controls">
+                <source src="./youandme.mp4" type="video/mp4" />
+            <p>
+                That's right! your are my babygirl from now.
+            </p>
+        </div>
+        <div class="container-cotton">
+            <p>
+                Make with ❤ by Kevin
+            </p>
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+<script>
+    function dates() {
+    var x = new Date("Dec 31 2023 14:30:00");
+    var y = new Date();
+    let seconds = Math.abs(x - y)/1000;
+
+    var day = seconds / (24 * 3600);
+
+    hh = seconds % (24 * 3600);
+    var hour = hh / 3600;
+  
+    hh %= 3600;
+    var minutes = hh / 60 ;
+  
+    hh %= 60;
+    var rseconds = hh;
+
+    document.getElementById('days').innerHTML = parseInt(day);
+    document.getElementById('hours').innerHTML = parseInt(hour);
+    document.getElementById('minutes').innerHTML = parseInt(minutes);
+    document.getElementById('seconds').innerHTML = parseInt(rseconds);
+}
+
+setInterval(dates, 1000);
+
+function cardSelected(selectedCard) {
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+        if (card === selectedCard) {
+            card.classList.remove('fade-out');
+            card.classList.add('show');
+        } else {
+            card.classList.add('fade-out'); 
+            card.classList.remove('show');
+        }
+    });
+}
+
+</script>
+</html>
